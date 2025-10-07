@@ -1,18 +1,24 @@
-# 🌎 Air Pollution and Respiratory Health Analysis in the U.S.
+# **Five-Year Trends and Cost Analysis of Respiratory Diseases in the U.S. Medicare System**
 
-This project explores the relationship between **air pollution**, **population**, and **respiratory health costs** across U.S. states.  
-It focuses on highly populated and polluted states such as **California**, **Texas**, **Florida**, **New York**, and **Pennsylvania**, aiming to understand how pollution levels affect **respiratory disease prevalence** and **treatment costs**.
+Introduction
+The top 5 most populated states in the USA are California, Texas, Florida, New York, and Pennsylvania. According to recent data, California and Texas are among the most polluted states in the country. California, in particular, has cities like Los Angeles and Bakersfield that rank high in pollution levels due to factors like vehicle emissions and industrial activities. Texas also faces significant pollution challenges, especially in urban areas.
+
+Air pollution has a direct impact on respiratory health. Exposure to pollutants like particulate matter (PM2.5) and ozone can lead to respiratory conditions such as asthma, chronic bronchitis, and other chronic obstructive pulmonary diseases. Long-term exposure can also increase the risk of lung cancer and cardiovascular diseases. Children, the elderly, and those with pre-existing health conditions are particularly vulnerable.
+
+The cost of treating respiratory conditions can vary significantly across states due to differences in healthcare systems, insurance coverage, and local healthcare costs. Generally, states with higher population may have higher pollution which increases the prevalence of respiratory cases. With this study I am trying to understand are these facts true.
+
+This project explores the relationship between **number of cases reported**, and **respiratory health costs** across U.S. states.  
+It focuses on highly populated states such as **California**, **Texas**, **Florida**, **New York**, and **Pennsylvania**, aiming to understand how pollution levels affect **respiratory disease prevalence** and **treatment costs**.
 
 ---
 
 ## 🎯 Project Objective
 
-The goal of this project is to analyze whether **states with higher populations and pollution levels** tend to have **higher rates and costs of respiratory diseases**.
+The goal of this project is to analyze whether **states with higher populations** tend to have **higher number of cases and costs of respiratory diseases**.
 
 Specifically, the project aims to:
-- Examine air pollution data (PM2.5, ozone levels, etc.) across major U.S. states.  
-- Identify trends linking **pollution intensity**, **population**, and **respiratory illness rates**.  
-- Compare **treatment costs** for respiratory conditions between high- and low-pollution states.  
+- Identify trends linking **population rates**, and **respiratory illness rates**.  
+- Compare **treatment costs** for respiratory conditions between high- and low-population states.  
 - Create **interactive visualizations** to present key insights effectively.
 
 ---
@@ -21,43 +27,23 @@ Specifically, the project aims to:
 
 | Tool | Purpose |
 |------|----------|
-| **Python (Pandas, Matplotlib, Seaborn)** | Data cleaning, processing, and exploratory analysis |
+| **Python (Pandas, Matplotlib, Seaborn)** | Data cleaning, processing, and analysis |
 | **Tableau** | Interactive dashboard creation and data visualization |
 | **Jupyter Notebook** | Analysis and documentation of results |
-| **Excel/CSV Files** | Data storage and import/export |
+| **CSV Files** | Data storage and import/export |
 
 ---
 
 ## 🗂️ Dataset Description
+The dataset used in this project is the **Medicare Outpatient Data** which includes information such as:
+- Provider Name & City  
+- Number of Outpatient Cases  
+- Average Total Cost  
+- Average Medicare Payment  
+- Average Covered Charges  
 
-The analysis uses publicly available data sources related to:
-- **Air Quality Metrics** — PM2.5 concentration, ozone levels  
-- **Population Data** — total and city-level populations  
-- **Healthcare Cost Data** — average treatment cost for respiratory diseases  
-- **Geographical Data** — state-level categorization  
+**Data Source:** Centers for Medicare & Medicaid Services (CMS)  
 
-*(You can add your actual dataset names or links here — e.g., EPA Air Quality Data, U.S. Census Bureau Population Data, Medicare Healthcare Cost Data.)*
-
----
-
-## 📊 Analysis Workflow
-
-1. **Data Preparation**
-   - Collected and merged data from multiple sources  
-   - Cleaned missing values and standardized state names  
-   - Calculated average pollution levels and healthcare costs per state  
-
-2. **Exploratory Data Analysis (Python)**
-   - Visualized correlations between pollution, population, and cost  
-   - Identified outlier states with extreme pollution or healthcare costs  
-
-3. **Dashboard Creation (Tableau)**
-   - Built an interactive dashboard to compare:
-     - Air pollution levels by state  
-     - Population vs respiratory disease cost relationships  
-     - Top polluted and high-cost regions  
-
----
 
 ## 💡 Key Insights
 
@@ -78,40 +64,7 @@ The analysis uses publicly available data sources related to:
 
 ---
 
-# 🏥 Case and Cost Analysis for Medicare Outpatients (Python & Tableau)
 
-This project focuses on analyzing **Medicare outpatient data** to understand the relationship between **treatment costs** and the **number of reported cases** across various U.S. cities.  
-The goal is to identify patterns, cost variations, and potential areas for cost optimization in outpatient services.
-
----
-
-## 🎯 Project Objective
-To analyze how **medical costs** vary with the **volume of outpatient cases** and provide insights that can help identify:
-- High-cost regions or facilities  
-- Cities with unusually high or low case volumes  
-- Trends or patterns linking cost and case count  
-
----
-
-## 🗂️ Dataset Description
-The dataset used in this project is the **Medicare Outpatient Data** which includes information such as:
-- Provider Name & City  
-- Number of Outpatient Cases  
-- Average Total Cost  
-- Average Medicare Payment  
-- Average Covered Charges  
-
-**Data Source:** Centers for Medicare & Medicaid Services (CMS)  
-*(You can replace this line with your dataset link if applicable.)*
-
----
-
-## 🧰 Tools & Technologies Used
-- **Python (Pandas, Matplotlib)** → for data cleaning and analysis  
-- **Tableau** → for data visualization and interactive dashboard creation  
-- **Jupyter Notebook** → for exploration and report generation  
-
----
 
 ## 📊 Analysis Performed
 - Cleaned and processed Medicare outpatient dataset using Python  
@@ -128,13 +81,6 @@ The dataset used in this project is the **Medicare Outpatient Data** which inclu
 - Some cities show **high outpatient costs despite low case counts**, suggesting potential inefficiency or specialized services.  
 - Cities with **large case volumes** tend to have **lower average costs per case**, possibly due to economies of scale.  
 - Cost variation across regions indicates opportunities for **standardization and resource optimization**.  
-
----
-
-## 📸 Power BI Dashboard Preview
-<p align="center">
-  <img src="screenshots/medicare_dashboard.png" alt="Medicare Outpatient Dashboard" width="700">
-</p>
 
 ---
 
