@@ -1,4 +1,4 @@
-# 🏥 Medicare Outpatient Cost Analysis (Power BI & Python)
+# 🏥 Case and Cost Analysis for Medicare Outpatients (Python & Tableau)
 
 This project focuses on analyzing **Medicare outpatient data** to understand the relationship between **treatment costs** and the **number of reported cases** across various U.S. cities.  
 The goal is to identify patterns, cost variations, and potential areas for cost optimization in outpatient services.
@@ -28,7 +28,7 @@ The dataset used in this project is the **Medicare Outpatient Data** which inclu
 
 ## 🧰 Tools & Technologies Used
 - **Python (Pandas, Matplotlib)** → for data cleaning and analysis  
-- **Power BI** → for data visualization and interactive dashboard creation  
+- **Tableau** → for data visualization and interactive dashboard creation  
 - **Jupyter Notebook** → for exploration and report generation  
 
 ---
@@ -37,7 +37,7 @@ The dataset used in this project is the **Medicare Outpatient Data** which inclu
 - Cleaned and processed Medicare outpatient dataset using Python  
 - Aggregated data at the **city level**  
 - Compared **average cost vs number of reported cases**  
-- Created interactive visuals in Power BI:
+- Created interactive visuals in Tableau:
   - Scatter plots showing cost-to-case relationship  
   - City-wise comparison dashboards  
   - Trend charts showing average cost variation  
@@ -58,8 +58,3 @@ The dataset used in this project is the **Medicare Outpatient Data** which inclu
 
 ---
 
-## 🚀 How to Use
-1. Clone this repository  
-   ```bash
-   git clone https://github.com/your-username/medicare-outpatient-analysis.git
-   cd medicare-outpatient-analysis
