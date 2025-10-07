@@ -60,7 +60,7 @@ The dataset used in this project is the **Medicare Outpatient Data** which inclu
   <img src="screenshots/air_pollution_dashboard.png" alt="Air Pollution Dashboard" width="700">
 </p>
 
-*(Replace the image path above with your actual Tableau screenshot or dashboard link.)*
+![Image alt](https://github.com/sumahassan/healthcare_analytics_project_python/blob/ef55438cfeadde070a92d06517f5cd1505a5a3be/Medicare_outpatient_tableau_dashboard_image.png)
 
 ---
 
