@@ -1,6 +1,18 @@
 # **Five-Year Trends and Cost Analysis of Respiratory Diseases in the U.S. Medicare System**
 
-Introduction
+
+## 🧰 Tools and Technologies
+
+| Tool | Purpose |
+|------|----------|
+| **Python (Pandas, Matplotlib, Seaborn)** | Data cleaning, processing, and analysis |
+| **Tableau** | Interactive dashboard creation and data visualization |
+| **Jupyter Notebook** | Analysis and documentation of results |
+| **CSV Files** | Data storage and import/export |
+
+---
+
+## Introduction
 The top 5 most populated states in the USA are California, Texas, Florida, New York, and Pennsylvania. According to recent data, California and Texas are among the most polluted states in the country. California, in particular, has cities like Los Angeles and Bakersfield that rank high in pollution levels due to factors like vehicle emissions and industrial activities. Texas also faces significant pollution challenges, especially in urban areas.
 
 Air pollution has a direct impact on respiratory health. Exposure to pollutants like particulate matter (PM2.5) and ozone can lead to respiratory conditions such as asthma, chronic bronchitis, and other chronic obstructive pulmonary diseases. Long-term exposure can also increase the risk of lung cancer and cardiovascular diseases. Children, the elderly, and those with pre-existing health conditions are particularly vulnerable.
@@ -23,17 +35,6 @@ Specifically, the project aims to:
 
 ---
 
-## 🧰 Tools and Technologies
-
-| Tool | Purpose |
-|------|----------|
-| **Python (Pandas, Matplotlib, Seaborn)** | Data cleaning, processing, and analysis |
-| **Tableau** | Interactive dashboard creation and data visualization |
-| **Jupyter Notebook** | Analysis and documentation of results |
-| **CSV Files** | Data storage and import/export |
-
----
-
 ## 🗂️ Dataset Description
 The dataset used in this project is the **Medicare Outpatient Data** which includes information such as:
 - Provider Name & City  
@@ -44,23 +45,9 @@ The dataset used in this project is the **Medicare Outpatient Data** which inclu
 
 **Data Source:** Centers for Medicare & Medicaid Services (CMS)  
 
-
-## 💡 Key Insights
-
-- **California** and **Texas** have some of the **highest pollution levels** and **treatment costs**.  
-- States with **larger populations** generally show **higher case counts** and **treatment demand**.  
-- A positive correlation was found between **PM2.5 concentration** and **average cost of respiratory treatments**.  
-- Some states with **lower pollution but high costs** may indicate inefficiencies or healthcare pricing differences.  
-
----
-
 ## 📈 Tableau Dashboard Preview
 
-<p align="center">
-  <img src="screenshots/air_pollution_dashboard.png" alt="Air Pollution Dashboard" width="700">
-</p>
-
-![Image alt](https://github.com/sumahassan/healthcare_analytics_project_python/blob/ef55438cfeadde070a92d06517f5cd1505a5a3be/Medicare_outpatient_tableau_dashboard_image.png)
+![Image alt](https://github.com/sumahassan/healthcare_analytics_project_python/blob/418030915c02b4117aa38ca8ee459e359660b94f/Medicare_outpatient_tableaudashboard_image.png)
 
 ---
 
@@ -83,4 +70,11 @@ The dataset used in this project is the **Medicare Outpatient Data** which inclu
 - Cost variation across regions indicates opportunities for **standardization and resource optimization**.  
 
 ---
+## 💡 Key Insights
 
+- **California** and **Texas** have some of the **highest pollution levels** and **treatment costs**.  
+- States with **larger populations** generally show **higher case counts** and **treatment demand**.  
+- A positive correlation was found between **PM2.5 concentration** and **average cost of respiratory treatments**.  
+- Some states with **lower pollution but high costs** may indicate inefficiencies or healthcare pricing differences.  
+
+---
