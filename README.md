@@ -11,8 +11,8 @@
 | **CSV Files** | Data storage and import/export |
 
 ---
+## 🩺 Introduction
 
-## Introduction
 The top 5 most populated states in the USA are California, Texas, Florida, New York, and Pennsylvania. According to recent data, California and Texas are among the most polluted states in the country. California, in particular, has cities like Los Angeles and Bakersfield that rank high in pollution levels due to factors like vehicle emissions and industrial activities. Texas also faces significant pollution challenges, especially in urban areas.
 
 Air pollution has a direct impact on respiratory health. Exposure to pollutants like particulate matter (PM2.5) and ozone can lead to respiratory conditions such as asthma, chronic bronchitis, and other chronic obstructive pulmonary diseases. Long-term exposure can also increase the risk of lung cancer and cardiovascular diseases. Children, the elderly, and those with pre-existing health conditions are particularly vulnerable.
@@ -50,31 +50,12 @@ The dataset used in this project is the **Medicare Outpatient Data** which inclu
 ![Image alt](https://github.com/sumahassan/healthcare_analytics_project_python/blob/418030915c02b4117aa38ca8ee459e359660b94f/Medicare_outpatient_tableaudashboard_image.png)
 
 ---
+## 💡 Key Findings
 
-
-
-## 📊 Analysis Performed
-- Cleaned and processed Medicare outpatient dataset using Python  
-- Aggregated data at the **city level**  
-- Compared **average cost vs number of reported cases**  
-- Created interactive visuals in Tableau:
-  - Scatter plots showing cost-to-case relationship  
-  - City-wise comparison dashboards  
-  - Trend charts showing average cost variation  
-
----
-
-## 💡 Key Insights
-- Some cities show **high outpatient costs despite low case counts**, suggesting potential inefficiency or specialized services.  
-- Cities with **large case volumes** tend to have **lower average costs per case**, possibly due to economies of scale.  
-- Cost variation across regions indicates opportunities for **standardization and resource optimization**.  
-
----
-## 💡 Key Insights
-
-- **California** and **Texas** have some of the **highest pollution levels** and **treatment costs**.  
-- States with **larger populations** generally show **higher case counts** and **treatment demand**.  
-- A positive correlation was found between **PM2.5 concentration** and **average cost of respiratory treatments**.  
-- Some states with **lower pollution but high costs** may indicate inefficiencies or healthcare pricing differences.  
-
+- The **respiratory disease category** accounts for only **~6% of total outpatient cases** in the U.S., yet contributes nearly **22% of the total treatment cost**, indicating that **respiratory conditions are significantly more expensive to treat** compared to other diseases.
+- Around **30% of all respiratory disease cases** are concentrated in the **five most populated states — Florida, California, Texas, New York, and Pennsylvania** — suggesting that **urban density and pollution** may be driving higher case counts.
+- **Florida, California, and Texas** emerge as the **top three contributors** to overall treatment costs for respiratory diseases.
+- **New York**, despite reporting **more cases than Pennsylvania**, shows a **lower average treatment cost**, highlighting regional healthcare cost variations.
+- Over the **five-year period (2018–2022)**, the **number of reported cases dipped in 2020** — likely due to pandemic-related disruptions — but **treatment costs continued to increase steadily**, reflecting a **consistent rise in healthcare spending** despite fluctuations in case volume.
+  
 ---
